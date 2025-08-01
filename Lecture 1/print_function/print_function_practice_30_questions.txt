@@ -1,0 +1,134 @@
+
+1. Print a simple string.
+   Statement: Print the string "Hello, World!"
+   Answer: print("Hello, World!")
+
+2. Print multiple items in one line.
+   Statement: Print "Hello", 2023, and 3.14 in one line.
+   Answer: print("Hello", 2023, 3.14)
+
+3. Print multiple items with a custom separator.
+   Statement: Print "Python", "is", and "fun" with a hyphen (-) separator.
+   Answer: print("Python", "is", "fun", sep="-")
+
+4. Print a string with an escape character.
+   Statement: Print He said, "Python is awesome." using escape characters.
+   Answer: print("He said, "Python is awesome."")
+
+5. Print numbers and text together.
+   Statement: Print "The result is" followed by the sum of 5 + 7.
+   Answer: print("The result is", 5 + 7)
+
+6. Print a string with a newline character.
+   Statement: Print "Python is" on one line and "awesome!" on the next line.
+   Answer: print("Python is
+awesome!")
+
+7. Print a string with a tab character.
+   Statement: Print "Python	is	awesome!" with tab spaces between the words.
+   Answer: print("Python\tis\tawesome!")
+
+8. Print a string multiple times in a single statement.
+   Statement: Print "Hello" five times on the same line, separated by spaces.
+   Answer: print("Hello " * 5)
+
+9. Print a number with a newline after it.
+   Statement: Print the number 100 and then print a new line.
+   Answer: print(100)
+   print()
+
+10. Print a pattern with asterisks.
+    Statement: Print the following pattern:
+    *
+    **
+    ***
+    ****
+    Answer: print("*")
+    print("**")
+    print("***")
+    print("****")
+
+11. Print a string with double quotes.
+    Statement: Print "The book's title is "Python for Beginners".
+    Answer: print('The book's title is "Python for Beginners"')
+
+12. Print a string with a backslash character.
+    Statement: Print "C:\Users\Python" with escape characters for backslashes.
+    Answer: print("C:\Users\Python")
+
+13. Print the result of a multiplication.
+    Statement: Print the result of 7 * 8.
+    Answer: print(7 * 8)
+
+14. Print the result of division.
+    Statement: Print the result of 10 / 3.
+    Answer: print(10 / 3)
+
+15. Print the result of a string repetition.
+    Statement: Print the string "Hello" repeated 3 times, separated by spaces.
+    Answer: print("Hello " * 3)
+
+16. Print a string without newline at the end.
+    Statement: Print "Python" without a newline at the end.
+    Answer: print("Python", end="")
+
+17. Print an integer and a float in the same statement.
+    Statement: Print 3 and 5.67 in one line.
+    Answer: print(3, 5.67)
+
+18. Print a variable's value directly.
+    Statement: Print the value of the number 42.
+    Answer: print(42)
+
+19. Print a floating-point number formatted to 2 decimal places.
+    Statement: Print the number 3.14159 formatted to 2 decimal places.
+    Answer: print(f"{3.14159:.2f}")
+
+20. Print the result of a string concatenation.
+    Statement: Print the result of concatenating "Python" and "is fun".
+    Answer: print("Python" + " is fun")
+
+21. Print a formatted string with variables.
+    Statement: Print a sentence with variables using the format method: "I love Python".
+    Answer: print("I love {}".format("Python"))
+
+22. Print an empty string.
+    Statement: Print an empty string.
+    Answer: print("")
+
+23. Print a list of items.
+    Statement: Print the list [1, 2, 3, 4].
+    Answer: print([1, 2, 3, 4])
+
+24. Print a dictionary.
+    Statement: Print the dictionary {"name": "Alice", "age": 25}.
+    Answer: print({"name": "Alice", "age": 25})
+
+25. Print a boolean value.
+    Statement: Print the boolean value True.
+    Answer: print(True)
+
+26. Print a complex number.
+    Statement: Print the complex number 3 + 4j.
+    Answer: print(3 + 4j)
+
+27. Print a multiline string.
+    Statement: Print the following string over multiple lines:
+    Line 1
+    Line 2
+    Line 3
+    Answer: print("Line 1
+Line 2
+Line 3")
+
+28. Print the result of floor division.
+    Statement: Print the result of 10 // 3.
+    Answer: print(10 // 3)
+
+29. Print the result of modulus operation.
+    Statement: Print the result of 10 % 3.
+    Answer: print(10 % 3)
+
+30. Print the result of exponentiation.
+    Statement: Print the result of 2 raised to the power of 3.
+    Answer: print(2 ** 3)

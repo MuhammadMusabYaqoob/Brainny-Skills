@@ -1,0 +1,161 @@
+
+Beginner Python Practice Questions (30 Qs with Solutions)
+
+1. Print “Welcome to Python”
+Solution:
+print("Welcome to Python")
+
+2. Print Your School Name
+Solution:
+print("Green Valley School")
+
+3. Add Two Numbers
+Solution:
+a = 10
+b = 5
+print("Sum:", a + b)
+
+4. Multiply Two Numbers
+Solution:
+a = 4
+b = 7
+print("Product:", a * b)
+
+5. Divide 25 by 4
+Solution:
+print(25 / 4)
+
+6. Floor Division of 25 by 4
+Solution:
+print(25 // 4)
+
+7. Find Remainder of 25 divided by 4
+Solution:
+print(25 % 4)
+
+8. Power: 3 raised to 4
+Solution:
+print(3 ** 4)
+
+9. Take user input for name and Salam them
+Solution:
+name = input("Enter your name: ")
+print("Salam,", name)
+
+10. Take two numbers from user and print their sum
+Solution:
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum:", a + b)
+
+11. Print your age using variable
+Solution:
+age = 16
+print("I am", age, "years old.")
+
+12. Check type of "100"
+Solution:
+print(type("100"))  # Output: <class 'str'>
+
+13. Convert "100" to int and add 50
+Solution:
+x = "100"
+print(int(x) + 50)
+
+14. Create 3 variables and print them
+Solution:
+x = 5
+y = "Python"
+z = 3.14
+print(x, y, z)
+
+15. Check valid identifiers: my-name, my_name, 2value, value2
+Solution:
+my-name ❌
+my_name ✅
+2value ❌
+value2 ✅
+
+16. Print data types of: 100, "text", 2.5, True
+Solution:
+print(type(100))
+print(type("text"))
+print(type(2.5))
+print(type(True))
+
+17. Print a multi-line comment
+Solution:
+"""
+This is a
+multi-line comment
+in Python.
+"""
+
+18. Add 10 and 20, then subtract 5
+Solution:
+result = 10 + 20 - 5
+print(result)
+
+19. Use input and type conversion to add two float numbers
+Solution:
+a = float(input("Enter first: "))
+b = float(input("Enter second: "))
+print("Sum:", a + b)
+
+20. Use variables to store subject marks and print total
+Solution:
+math = 90
+science = 85
+english = 88
+total = math + science + english
+print("Total Marks:", total)
+
+21. Swap values of two variables
+Solution:
+a = 5
+b = 10
+a, b = b, a
+print(a, b)
+
+22. Print a message using both single and double quotes
+Solution:
+print('She said, "Hello"')
+
+23. Add comment to explain code
+Solution:
+# This prints my city
+print("Lahore")
+
+
+24. Print the result of: (4 + 5) * 3
+Solution:
+print((4 + 5) * 3)
+
+25. Concatenate first and last name with space
+Solution:
+first = "Ali"
+last = "Khan"
+print(first + " " + last)
+
+26. Use print with sep and end
+Solution:
+print("Hello", "World", sep="-", end="!")
+# Output: Hello-World!
+
+27. Get age from user and print in message
+Solution:
+age = input("Enter your age: ")
+print("You are", age, "years old.")
+
+28. Convert float to int and print
+Solution:
+x = 5.9
+print(int(x))  # Output: 5
+
+29. Calculate average of 3 numbers
+Solution:
+a = 10
+b = 20
+c = 30
+average = (a + b + c) / 3
+print("Average:", average)

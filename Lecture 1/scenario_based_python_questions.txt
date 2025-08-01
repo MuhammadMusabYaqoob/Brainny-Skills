@@ -1,0 +1,32 @@
+
+Scenario-Based Python Practice Questions (15 Qs)
+
+1. You are creating a welcome screen for a software. Write a program to display “Welcome to Smart School System”.
+
+2. A student enters their name and class. Write a program that takes this input and prints a greeting message like: "Hello Ahmed from class 9!"
+
+3. A user wants to calculate the total price of two products. Take input of two prices and print the total cost.
+
+4. A shopkeeper needs to calculate the remaining amount after a customer pays. If a product costs 120 rupees and the customer gives 200, write a program to show how much to return.
+
+5. A teacher enters marks of 3 subjects. Write a program to calculate and print the total and average marks.
+
+6. You are making a calculator app. Write a program that takes two numbers as input and prints their sum, difference, product, and quotient.
+
+7. A user inputs their full name. Write a program to split it into first name and last name and print them separately.
+
+8. You are developing a sign-up form. Ask user for name, age, and email. Print the entered details in a formatted message.
+
+9. A baker wants to double a recipe. Write a program that takes quantity of sugar (in grams) as input and prints the double amount required.
+
+10. A fruit seller wants to calculate earnings. If 1 apple costs 30 rupees, write a program that asks how many apples were sold and prints the total earnings.
+
+11. You are building a temperature converter. Ask the user to enter temperature in Celsius and convert it to Fahrenheit using the formula: F = (C × 9/5) + 32
+
+12. A student enters their marks in 5 subjects. Calculate the percentage based on total marks being 500 and print whether they passed (above 40%) or failed.
+
+13. You are creating an invoice system. Ask for the quantity and price of a product, calculate total, apply 10% discount, and print final amount.
+
+14. An ATM machine needs to return money in Rs. 500 notes. Write a program that takes withdrawal amount and prints how many Rs. 500 notes will be returned (use floor division).
+
+15. A user enters their year of birth. Write a program to calculate and display their current age (assume current year is 2025).

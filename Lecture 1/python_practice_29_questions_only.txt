@@ -1,0 +1,32 @@
+
+Beginner Python Practice Questions (29 Qs Only)
+
+1. Print “Welcome to Python”
+2. Print Your School Name
+3. Add Two Numbers
+4. Multiply Two Numbers
+5. Divide 25 by 4
+6. Floor Division of 25 by 4
+7. Find Remainder of 25 divided by 4
+8. Power: 3 raised to 4
+9. Take user input for name and greet them
+10. Take two numbers from user and print their sum
+11. Print your age using variable
+12. Check type of "100"
+13. Convert "100" to int and add 50
+14. Create 3 variables and print them
+15. Check valid identifiers: my-name, my_name, 2value, value2
+16. Print data types of: 100, "text", 2.5, True
+17. Print a multi-line comment
+18. Add 10 and 20, then subtract 5
+19. Use input and type conversion to add two float numbers
+20. Use variables to store subject marks and print total
+21. Swap values of two variables
+22. Print a message using both single and double quotes
+23. Add comment to explain code
+24. Print the result of: (4 + 5) * 3
+25. Concatenate first and last name with space
+26. Use print with sep and end
+27. Get age from user and print in message
+28. Convert float to int and print
+29. Calculate average of 3 numbers

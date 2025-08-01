@@ -1,0 +1,251 @@
+Q1
+Write a Python program that takes two numbers as input from the user and prints their sum.
+
+
+
+ Q2
+Write a Python program to swap the values of two variables and print the result.
+a = input("Enter 1st no: ")
+b= input("Enter 2nd no: ")
+a,b=b,a
+print("after sawpping a is :",a,"after swaping  b is:",b)
+
+
+a = input("Enter 1st no: ")
+b= input("Enter 2nd no: ")
+temp = a
+a = b
+b = temp
+print("After swapping a = ",a)
+print("After swapping b = ",b)
+
+
+
+
+
+
+ Q3
+Write a Python program that takes a number as input and prints whether it is even or odd.
+n= int(input("enter any no "))
+if n%2==0:
+    print(n,"is an even number")
+else:
+    print(n,"is an odd number")
+
+
+
+
+
+
+
+
+ Q4
+Write a Python program that takes two numbers and an operator (+, -, *, /) as input and prints the result of the operation.
+# Take two numbers and an operator as input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+operator = input("Enter the operator (+, -, *, /): ")
+
+# Perform the operation based on the operator
+if operator == "+":
+    result = num1 + num2
+elif operator == "-":
+    result = num1 - num2
+elif operator == "*":
+    result = num1 * num2
+elif operator == "/":
+    if num2 != 0:
+        result = num1 / num2
+    else:
+        result = "Error! Division by zero."
+else:
+    result = "Invalid operator"
+
+# Print the result
+print("Result:", result)
+
+
+
+
+
+
+
+
+ Q5 
+Write a Python program that takes a temperature in Celsius as input and prints the temperature in Fahrenheit.
+(0°C × 9/5) + 32
+temp=float(input("enter the temperature in celcius"))
+f=(temp*9/5)+32
+print(f)
+
+
+
+
+
+
+
+*Q6*
+User will input (3ages).Find the oldest one
+
+a=int(input("Enter first person  age : "))
+b=int(input("Enter second person  age : "))
+c=int(input("Enter third person  age : "))
+
+max = a 
+if max < b:
+    max = b
+if max < c:
+    max = c
+print(max)
+
+
+a=int(input("Enter first person  age : ")
+b=int(input("Enter second person  age : ")
+c=int(input("Enter third person  age : ")
+if a>b and a>c:
+        print(a,"a is the oldest person")
+elif b>a and b>c:
+        print(b,"b is the oldest person")
+else:
+       print(c,"c is the oldest person")
+
+
+# Input names and ages
+name1 = input("Enter the name of the first person: ")
+age1 = int(input(f"Enter {name1}'s age: "))
+
+name2 = input("Enter the name of the second person: ")
+age2 = int(input(f"Enter {name2}'s age: "))
+
+name3 = input("Enter the name of the third person: ")
+age3 = int(input(f"Enter {name3}'s age: "))
+
+# Determine the oldest person
+if age1 > age2 and age1 > age3:
+    print(f"{name1} is the oldest person, with an age of {age1}.")
+elif age2 > age1 and age2 > age3:
+    print(f"{name2} is the oldest person, with an age of {age2}.")
+else:
+    print(f"{name3} is the oldest person, with an age of {age3}.")
+
+
+
+
+
+
+
+
+*Q7*
+Write a program that will give you the sum of 3 digits
+
+num = int(input("Enter three digit number: "))
+
+a = num % 10 # 123 % 10 = 3
+num = num // 10 # 123 // 10 = 12
+b = num % 10 # 12 % 10 = 2
+num = num // 10 # 12 // 10 = 1
+c = num % 10 # 1 % 10 = 1
+num = num // 10 # 1 // 10 = 0
+
+print(a+b+c)
+
+
+a = int(input("Enter three digit number: "))
+sum = 0
+while a != 0:
+    digit = a % 10
+    sum = sum + digit
+    a = a // 10
+   
+print(sum)
+
+
+
+
+
+
+
+*Q8*
+Write a program that will reverse a four digit number.Also it checks whether the reverse is true.
+Reverse
+num = int(input("Enter three digit number: "))
+
+a = num % 10  # Extract the last digit
+num = num // 10  # Remove the last digit
+b = num % 10  # Extract the second last digit
+num = num // 10  # Remove the second last digit
+c = num % 10  # Extract the first digit
+
+# Construct the reversed number
+reversed_num = a * 100 + b * 10 + c
+
+print("Reversed number:", reversed_num)
+
+
+num = int(input("Enter a four-digit number: "))
+d = num % 10  # Extract the last digit
+num = num // 10  # Remove the last digit
+c = num % 10  # Extract the second last digit
+num = num // 10  # Remove the second last digit
+b = num % 10  # Extract the third last digit
+num = num // 10  # Remove the third last digit
+a = num % 10  # Extract the first digit
+
+# Reconstruct the reversed number
+reversed_num = d * 1000 + c * 100 + b * 10 + a
+
+print("Reversed number:", reversed_num)
+
+
+
+
+
+
+
+
+*Q9*
+Write a program to find the euclidean distance between two coordinates.
+x1=float(input("enter x1 coordinate"))
+x2=float(input("enter x2 coordinate"))
+y1=float(input("enter y1 coordinate"))
+y2=float(input("enter y2 coordinate"))
+d= ((x2-x1)**2 + (y2-y1)**2)**0.5
+print (d)
+
+
+
+
+
+
+
+*Q10*
+Write a program that take a user input of three angles and will find out whether it can form a triangle or not.
+# Take three angles as input from the user
+angle1 = float(input("Enter the first angle: "))
+angle2 = float(input("Enter the second angle: "))
+angle3 = float(input("Enter the third angle: "))
+
+# Check if the angles can form a triangle
+if angle1 + angle2 + angle3 == 180:
+    print("The angles can form a triangle.")
+else:
+    print("The angles cannot form a triangle.")
+Enter the first angle: 60
+Enter the second angle: 60
+Enter the third angle: 60
+
+Enter the first angle: 90
+Enter the second angle: 45
+Enter the third angle: 50
+
+
+
+Enter the first angle: 90
+Enter the second angle: 45
+Enter the third angle: 45
+
+
+
+
+
+
